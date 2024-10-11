@@ -1,3 +1,6 @@
+"use client";
+
+import Image from 'next/image';
 import { Col, Container, Row, Tab } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
 import { ProjectCard } from "./ProjectCard";
@@ -95,7 +98,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2} alt="asd"/>
+            <Image className="background-image-right" src={colorSharp2} alt="asd"/>
         </section>
     );
 
