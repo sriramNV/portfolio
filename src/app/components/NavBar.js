@@ -30,6 +30,7 @@ export const NavBar = () => {
         setActiveLink(value);
       }
 
+      const conn = "Let's connect";
 
     return(    
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -52,7 +53,7 @@ export const NavBar = () => {
                     <a href='#'><Image src={navIcon2} alt=""/></a>
                     <a href='#'><Image src={navIcon3} alt=""/></a>
                 </div>
-                <button className='vvd' onClick={()=>{console.log('connect')}}><span>Let's Connect</span></button>
+                <button className='vvd' onClick={()=>{console.log('connect')}}><span>{conn}</span></button>
             </span>
         </Navbar.Collapse>
         </Container>

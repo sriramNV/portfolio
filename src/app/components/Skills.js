@@ -39,7 +39,7 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>Skills</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industrys standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className="item">
                                     <Image src={meter3} alt="image"/>
