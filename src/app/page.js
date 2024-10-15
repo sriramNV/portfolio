@@ -14,6 +14,10 @@ function App() {
     <div className="App">
       <head>
         <title>Portfolio</title>
+        <meta
+          name="description"
+          content="A page on the Coding Beauty website"
+        />
       </head>
       <NavBar/>
       <Banner />
