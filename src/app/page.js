@@ -29,4 +29,9 @@ function App() {
   );
 }
 
+export const metadata = {
+  title: "My new title",
+  description: "My description",
+}
+
 export default App;
