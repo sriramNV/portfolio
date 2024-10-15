@@ -52,6 +52,8 @@ export const Banner = () =>{
 
     }
  
+    const conn = "Let's connect";
+
     return(
         <section className="banner" id="home">
             <Container>
@@ -61,7 +63,7 @@ export const Banner = () =>{
                         <h1>{`Hi I'm Sriram`}<span className="wrap"><br/>{text}</span></h1>
                         <p>As a versatile software engineer with three years of experience, I architect high-performance web applications using Next.js while simultaneously maintaining critical mainframe infrastructure. I leverage React, GraphQL, and SEO optimization techniques to craft engaging user experiences, while harnessing COBOL and JCL to modernize legacy systems. By seamlessly integrating cutting-edge web technologies with robust enterprise systems, I deliver efficient, scalable solutions that drive business innovation. Beyond coding, I actively contribute to open-source projects and mentor aspiring developers, continuously striving to revolutionize the digital landscape.
                         </p>
-                        <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25}/></button>
+                        <button onClick={() => console.log('connect')}>{conn} <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                     <TrackVisibility>
